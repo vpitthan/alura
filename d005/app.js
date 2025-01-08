@@ -1,6 +1,2 @@
-let numeroInformado = prompt('Escolha um número')
-if(numeroInformado >=0){
-    alert('Número positivo!')
-}else{
-    alert('Número negativo!')
-}
+let NomeUsuario = prompt('Qual seu nome?')
+alert(`Seja-bem vindo ${NomeUsuario}`)
