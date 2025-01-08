@@ -1,7 +1,9 @@
-let numeroMaximo = prompt("Digite um número para a contagem progregressiva:");;
-let contador = 0;
+let idade = 25;
+let possuiCarteira = true;
 
-while (contador <= numeroMaximo) {
-    console.log(contador);
-    contador++
+// se idade é maior que 18 e possui carteira…
+if (idade > 18 && possuiCarteira) {
+  console.log("Pode dirigir!");
+} else {
+  console.log("Não pode dirigir.");
 }
