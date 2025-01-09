@@ -1,1 +1,2 @@
-console.log('Boas vindas')
+let nome = 'vinicius'
+alert(`Olá, ${nome}`)
