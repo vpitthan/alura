@@ -19,3 +19,6 @@ const admin={
         
     }
 };
+Object.setPrototypeOf(admin, user);
+admin.criarCursos()
+admin.exibirInfos()
